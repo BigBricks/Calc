@@ -123,11 +123,18 @@ export default class Keypad extends Component {
         </button>
 
         <button
-          className="btn zero"
+          className="btn"
           name="0"
           onClick={e => this.props.onClick(e.target.name)}
         >
           0
+        </button>
+        <button
+          className="btn"
+          name="**"
+          onClick={e => this.props.onClick(e.target.name)}
+        >
+          ^2
         </button>
         <button
           className="btn"
