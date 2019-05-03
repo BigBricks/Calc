@@ -165,22 +165,18 @@ function Evaluate(string) {
       operand = "";
     }
     if (array[i] === "+") {
-      console.log(parseInt(acc));
       first = parseInt(acc);
       acc = "";
       operand = "+";
     } else if (array[i] === "-") {
-      console.log(parseInt(acc));
       first = parseInt(acc);
       acc = "";
       operand = "-";
     } else if (array[i] === "*") {
-      console.log(parseInt(acc));
       first = parseInt(acc);
       acc = "";
       operand = "*";
     } else if (array[i] === "/") {
-      console.log(parseInt(acc));
       first = parseInt(acc);
       acc = "";
       operand = "/";
